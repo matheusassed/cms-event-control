@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRUD Event Control</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <button class="add" onclick="add()">Adicionar</button>
+
+  <div class="table">
+    <div class="header_line">
+      <div class="col id"><span>ID</span></div>
+      <div class="col data"><span>DATA</span></div>
+      <div class="col banda"><span>BANDA</span></div>
+    </div>
+    <div class="common_line">
+      <div class="col id"><span>00</span></div>
+      <div class="col data"><span>03/03/2020</span></div>
+      <div class="col banda"><span>DebolSamba</span></div>
+      <div class="controles">
+        <button class="edit" onclick="edit()">Editar</button>
+        <button class="remove" onclick="remove()">Remover</button>
+      </div>
+    </div>
+    <div class="common_line">
+      <div class="col id"><span>01</span></div>
+      <div class="col data"><span>30/12/2020</span></div>
+      <div class="col banda"><span>Samba do Hey</span></div>
+      <div class="controles">
+        <button class="edit" onclick="edit()">Editar</button>
+        <button class="remove" onclick="remove()">Remover</button>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

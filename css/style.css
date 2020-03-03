@@ -1,0 +1,62 @@
+:root{
+  --purple: #A06BFF;
+  --lilac: #6D61E8;
+  --light-lilac: #7791FF;
+  --blue: #619EE8;
+  --neon-blue: #6BD4FF;
+}
+
+body{
+  font-family: Arial;
+}
+
+body button{background: var(--lilac);color: #FFF;text-transform: uppercase;line-height: 0;padding: 20px 30px;border: 1px solid var(--purple);box-sizing: border-box;border-radius: 20px;margin: 0 auto;display: block;}
+body .table button{}
+
+.table{
+    width: 90%;
+    margin: 30px auto 0;
+}
+.table .header_line{
+    padding: 20px 10px;
+    box-sizing: border-box;
+    background: var(--neon-blue);
+    border-bottom: 2px solid var(--swiper-theme-color);
+}
+.table .header_line .col{
+    display: inline-block;
+}
+
+.table .col.id{
+    width: 3%;
+    max-width: 100px;
+    min-width: 20px;
+}
+.table .col.data{
+    width: 12%;
+    max-width: 300px;
+    min-width: 90px;
+}
+.table .col.banda{
+    width: 50%;
+    max-width: 920px;
+    min-width: 230px;
+}
+
+.table .common_line{
+    padding: 20px 10px;
+    box-sizing: border-box;
+    background: var(--blue);
+}
+.table .common_line:nth-child(odd){
+  background: #efefef;
+}
+.table .common_line .col{
+    display: inline-block;
+}
+.table .common_line .controles{
+    display: inline-block;
+}
+.table .common_line .controles button{
+    display: inline-block;
+}
